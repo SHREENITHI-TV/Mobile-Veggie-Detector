@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity3">
+
+        <TextView
+            android:id="@+id/text_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="20dp"
+            android:background="#80FFFFFF"
+            android:lineSpacingExtra="8dp"
+            android:padding="16dp"
+            android:scrollbars="vertical"
+            android:text="Welcome to our Mobile Veggie Detector App!\n\nThis app helps you easily identify various vegetables in real-time using your smartphone camera.\nSimply point your camera at a vegetable, and the app will instantly recognize and display its name. You can also explore delicious recipes. Enjoy a seamless shopping experience in multicultural markets with our user-friendly application.\n\nDeveloped by Shree."
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="232dp"
+            android:layout_height="242dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/about_bg" />
+
+        <!--android:background="@drawable/about"-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

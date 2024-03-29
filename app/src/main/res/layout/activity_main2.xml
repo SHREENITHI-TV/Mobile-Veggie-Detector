@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity2">
+
+    <!-- TextView for Tomato -->
+    <TextView
+        android:id="@+id/textviewTomato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tomato - Season: Summer"
+        android:textColor="@android:color/black"
+        android:background="#80d1b68b"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvTomato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="(Tamatar in Hindi, தக்காளி in Tamil)\nRecipes: \n[Tomato Soup](https://www.example.com/tomato-soup),\n[Tomato Pasta](https://www.example.com/tomato-pasta)"
+        android:padding="4dp"
+        android:autoLink="web"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textviewTomato"
+         />
+
+    <!-- TextView for Potato -->
+    <TextView
+        android:id="@+id/textviewPotato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Potato - Season: Winter"
+        android:background="#95d1b68b"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTomato"/>
+
+    <TextView
+        android:id="@+id/tvPotato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="(Aloo in Hindi, உருளைக்கிழங்கு in Tamil)\nRecipes: \n[Aloo Gobi](https://www.example.com/aloo-gobi), \n[Potato Salad](https://www.example.com/potato-salad)"
+        android:padding="4dp"
+        android:autoLink="web"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textviewPotato"
+        />
+
+    <!-- TextView for Capsicum -->
+    <TextView
+        android:id="@+id/textviewCapsicum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capsicum - Season: Year-round"
+        android:textColor="@android:color/black"
+        android:background="#95d1b68b"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPotato"/>
+
+    <TextView
+        android:id="@+id/tvCapsicum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="(Shimla Mirch in Hindi, குடைமிளகாய் in Tamil)\nRecipes: \n[Stuffed Capsicum](https://www.example.com/stuffed-capsicum), \n[Capsicum Rice](https://www.example.com/capsicum-rice)"
+        android:padding="8dp"
+        android:autoLink="web"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textviewCapsicum"
+         />
+
+    <!-- TextView for Garlic -->
+    <TextView
+        android:id="@+id/textviewGarlic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Garlic - Season: Winter"
+        android:textColor="@android:color/black"
+        android:background="#95d1b68b"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvCapsicum"/>
+
+    <TextView
+        android:id="@+id/tvGarlic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="(Lahsun in Hindi, பூண்டு in Tamil)\nRecipes: \n[Garlic Bread](https://www.example.com/garlic-bread), \n[Garlic Chicken](https://www.example.com/garlic-chicken)"
+        android:padding="8dp"
+        android:autoLink="web"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textviewGarlic"
+         />
+
+    <!-- TextView for Onion -->
+    <TextView
+        android:id="@+id/textviewOnion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:background="#95d1b68b"
+        android:text="Onion - Season: Year-round"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvGarlic"/>
+
+    <TextView
+        android:id="@+id/tvOnion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="(Pyaaz in Hindi, வெங்காயம் in Tamil)\nRecipes: \n[Onion Rings](https://www.example.com/onion-rings), \n[French Onion Soup](https://www.example.com/french-onion-soup)"
+        android:padding="8dp"
+        android:autoLink="web"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textviewOnion"
+         />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="430dp"
+            android:layout_height="428dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvOnion"
+            app:srcCompat="@drawable/download_1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
