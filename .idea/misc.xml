@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GitHub/Mobile-Veggie-Detector/app/src/main/res/layout/activity_camera.xml" value="0.2222222222222222" />
+        <entry key="..\:/GitHub/Mobile-Veggie-Detector/app/src/main/res/layout/activity_main.xml" value="0.2222222222222222" />
+        <entry key="..\:/GitHub/Mobile-Veggie-Detector/app/src/main/res/layout/activity_main2.xml" value="0.152" />
+        <entry key="..\:/GitHub/Mobile-Veggie-Detector/app/src/main/res/layout/activity_main3.xml" value="0.2" />
         <entry key="..\:/object_detection/Custom_Object_Detection_App-master/app/src/main/res/drawable/border_background.xml" value="0.23657407407407408" />
         <entry key="..\:/object_detection/Custom_Object_Detection_App-master/app/src/main/res/layout/activity_camera.xml" value="0.2222222222222222" />
         <entry key="..\:/object_detection/Custom_Object_Detection_App-master/app/src/main/res/layout/activity_main.xml" value="0.264" />
