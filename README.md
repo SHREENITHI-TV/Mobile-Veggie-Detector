@@ -29,7 +29,7 @@ This project has been **peer-reviewed and published in IEEE**, highlighting its 
 ## 🧰 Technology Stack
 
 - **Android Studio**
-- **Java / Kotlin (Android)**
+- **Java**
 - **Machine Learning**
 - **Computer Vision**
 - **Image Processing**
